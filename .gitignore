@@ -1,4 +1,4 @@
-# === Visual Studio / .NET ===
+# === Visual Studio / .NET (Server İçin) ===
 [Bb]in/
 [Oo]bj/
 .vs/
@@ -7,7 +7,7 @@
 *.userosscache
 *.sln.docstates
 
-# === Unity ===
+# === Unity (Client İçin) ===
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -17,21 +17,22 @@
 [Uu]ser[Ss]ettings/
 [Mm]emoryCaptures/
 
-# Unity generated files
-*.csproj
-*.unityproj
-*.sln
-*.suo
-*.tmp
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.mdb
-*.opendb
-*.VC.db
+# SADECE Unity klasöründeki IDE dosyalarını engelle (Server'a dokunma)
+Client/*.csproj
+Client/*.unityproj
+Client/*.sln
+Client/*.slnx
+Client/*.suo
+Client/*.tmp
+Client/*.user
+Client/*.userprefs
+Client/*.pidb
+Client/*.booproj
+Client/*.svd
+Client/*.pdb
+Client/*.mdb
+Client/*.opendb
+Client/*.VC.db
 
 # OS generated
 .DS_Store
